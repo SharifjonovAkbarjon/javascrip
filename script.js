@@ -101,30 +101,30 @@
  
     // masala 8
 
-    {
-    function numbers(a, b) {
-        let result = [];
-        for (let sum = a; sum < b; sum++) {
-            if (sum % 2 === 0) {
-                result.push(sum);
-            }
-        }
-        return result;
-    }
-    console.log(numbers(2, 9));
-    }
+    // {
+    // function numbers(a, b) {
+    //     let result = [];
+    //     for (let sum = a; sum < b; sum++) {
+    //         if (sum % 2 === 0) {
+    //             result.push(sum);
+    //         }
+    //     }
+    //     return result;
+    // }
+    // console.log(numbers(2, 9));
+    // }
 
 
     // masala 9
 
-    {
-    function letter(n) {
-        return n.charAt(0)
-                        .toUpperCase() + n
-                        .slice(1);
-    }
-    console.log(letter("qodir"));
-    }
+    // {
+    // function letter(n) {
+    //     return n.charAt(0)
+    //                     .toUpperCase() + n
+    //                     .slice(1);
+    // }
+    // console.log(letter("qodir"));
+    // }
 
 
 
