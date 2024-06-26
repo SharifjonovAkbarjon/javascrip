@@ -115,13 +115,16 @@
     }
 
 
-
-
-
     // masala 9
-    
 
-    
+    {
+    function letter(n) {
+        return n.charAt(0)
+                        .toUpperCase() + n
+                        .slice(1);
+    }
+    console.log(letter("qodir"));
+    }
 
 
 
