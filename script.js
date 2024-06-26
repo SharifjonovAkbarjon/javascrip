@@ -32,6 +32,30 @@
 
     // masala 3
 
+    // {
+    // const string = (number) => {
+    //     return number.toString()
+    //                         .split("")
+    //                         .reverse("")
+    //                         .join("")
+    // }
+    // console.log(string(123));
+    //  }
+
+
+    // masala 4
+
+    // {
+    // let boolean = [true, false, true, false];
+    // {
+    //   let result = [];
+    //   boolean.forEach((son) => (son !== true ? result.push(son) : console.log("")));
+    //   console.log(result);
+    // }
+    // }
+
+
+
 
 
     // masala 5
@@ -47,10 +71,52 @@
 
     // masala 6
 
+    // {
+    // let array = [5, 2, 3];
+
+    // let result = [];
+
+    // for (let i = 0, len = array.length; i < len; i++) {
+    //     result.push(array[i] ** 2);
+    // }
+
+    // console.log(result);
+    //  }
+
+
+    // masala 7
+
+    // {
+    // let array = [];
+    // function son(n) {
+    //   for (let i = 1; i <= n; i++) {
+    //     array.push(i);
+    //   }
+    //   return array;
+    // }
+    // console.log(son(5));
+    // }
+
+
  
+    // masala 8
+
+    {
+    function numbers(a, b) {
+        let result = [];
+        for (let sum = a; sum < b; sum++) {
+            if (sum % 2 === 0) {
+                result.push(sum);
+            }
+        }
+        return result;
+    }
+    console.log(numbers(2, 9));
+    }
 
 
-    
+
+
 
     // masala 9
     
